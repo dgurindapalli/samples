@@ -1,0 +1,15 @@
+<Context path="samplews" allowLinking="true">
+<WatchedResource>WEB-INF/web.xml</WatchedResource>
+<Resource 
+ name="jdbc/SampleJndi"
+  auth="Container"
+  type="javax.sql.DataSource"
+  maxActive="100"
+  maxIdle="30"
+  maxWait="10000"
+  driverClassName="com.mysql.jdbc.Driver"
+  url="jdbc:mysql://localhost:3306/test"
+  username="root"
+  password=""
+  />
+ </Context>
